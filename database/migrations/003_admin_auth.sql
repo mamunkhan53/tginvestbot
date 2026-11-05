@@ -1,0 +1,7 @@
+ALTER TABLE admin_activity_logs MODIFY admin_id BIGINT UNSIGNED NULL;
+
+CREATE TABLE IF NOT EXISTS admin_login_limits (
+ bucket CHAR(64) PRIMARY KEY,
+ attempts INT UNSIGNED NOT NULL,
+ reset_at BIGINT UNSIGNED NOT NULL
+) ENGINE=InnoDB;

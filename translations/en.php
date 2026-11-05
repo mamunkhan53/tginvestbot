@@ -1,0 +1,20 @@
+<?php
+return [
+    'welcome'=>"NOVIKOV TRADE\n\nWelcome to your personal capital management center.\n\nSelect a section below:",
+    'start_first'=>'Send /start to register your account.',
+    'restricted'=>'Your account is restricted. Contact platform support.',
+    'portfolio'=>'Financial Portfolio',
+    'cabinet'=>'Personal Cabinet',
+    'history'=>'Transaction History',
+    'referrals'=>'Referral Program',
+    'balance'=>'Available balance',
+    'back'=>'Back',
+    'previous'=>'Previous',
+    'next'=>'Next',
+    'empty_history'=>'No transactions yet.',
+    'financial_disabled'=>'Investment activation, deposits and withdrawals are not enabled. Do not send funds.',
+    'wallet_unconfigured'=>'Deposit custody and withdrawal wallet settings are not configured yet. Do not send funds.',
+    'link_unconfigured'=>'Referral link unavailable until the bot username is configured.',
+    'commissions_disabled'=>'Referral commissions are not enabled. No earnings are promised or credited.',
+    'unknown'=>'This action is unavailable. Please return to the main menu.',
+];
